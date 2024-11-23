@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.calculator {
+    background-color: black; /* Crna pozadina za kalkulator */
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 400px; /* Fiksna širina kalkulatora */
+    height: 450px;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    padding: 20px;
+    border: none;
+    background-color: #333;
+    border-radius: 50%; /* Okrugli dugmadi */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Senka dugmadi */
+}
+
+/* Stilizovanje operacionih dugmadi (žuta pozadina, beli tekst) */
+.btn.operation {
+    background-color: hsl(35, 100%, 55%); /* Žuta boja */
+    color: white; /* Beli tekst */
+    font-weight: bold;
+}
+
+/* Hover efekti za dugmadi */
+.btn:hover {
+    background-color: #444;
+}
+
+.btn:active {
+    background-color: #555;
+}
