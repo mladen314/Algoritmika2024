@@ -60,11 +60,6 @@ body {
     font-weight: bold;
 }
 
-/* Hover efekti za dugmadi */
-.btn:hover {
-    background-color: #444;
-}
-
-.btn:active {
-    background-color: #555;
+.btn.operation:hover {
+    background-color: #333;
 }
