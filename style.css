@@ -24,3 +24,9 @@ a{
     text-align: center;
     padding-top: 2%;
 }
+
+@media (max-width: 450px) {
+    body{
+        background-image: linear-gradient(to right, rgb(241, 142, 11), rgb(184, 16, 16));
+    }
+}
