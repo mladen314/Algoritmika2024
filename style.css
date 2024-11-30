@@ -1,0 +1,25 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,rgb(101, 86, 189),rgb(2, 0, 13));
+}
+.linkovi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: rgb(101, 86, 189);
+    height: 56px;
+    width: 165px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+}
