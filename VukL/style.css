@@ -18,7 +18,7 @@ body {
 }
 
 h1{
-    color: #333;
+    color: #4d4242;
     font-size: 18px;
 }
 
@@ -32,13 +32,13 @@ input{
     padding: 10px;
     margin: 10px 0;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 4px;
 }
 
 button{
     padding: 10px 15px;
-    background-color: #4caf50;
+    background-color: #0c440d;
     color: white;
     border:none;
     border-radius: 4px;
@@ -46,11 +46,11 @@ button{
 }
 
 button:hover{
-    background-color: #45a049
+    background-color: #0e4d11
 }
 
 h2{
-    color: #333;
+    color: #493e3e;
     font-size: 20px;
     margin-top: 20px;
 }
