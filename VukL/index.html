@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Konvertor mjernih jedinica</title>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
 
-    <script src="script.js"></script>
-</body>
-</html> 
-<body>
-    <div class="container">
-        <h1>Centimeters to Milimeters Converter</h1>
-        <label for="cmInput">Enter your needed number:</label>
-        <input type="number" id="cmInput" placeholder="Enter value in CM">
-        <button onclick="convertToMM()">Convert</button>
-        <h2 id="result"></h2>
+<div class="converter-container">
+    <h1>Unit Converter</h1>
+    
+    <div class="input-group">
+        <label for="value">Value:</label>
+        <input type="number" id="value" placeholder="Enter value" />
     </div>
 
-    <script src="script.js"></script>
+    <div class="input-group">
+        <label for="from-unit">From Unit:</label>
+        <select id="from-unit">
+            <option value="cm">Centimeters (cm)</option>
+            <option value="mm">Millimeters (mm)</option>
+            <option value="dm">Decimeters (dm)</option>
+            <option value="m">Meters (m)</option>
+        </select>
+    </div>
+
+    <div class="input-group">
+        <label for="to-unit">To Unit:</label>
+        <select id="to-unit">
+            <option value="cm">Centimeters (cm)</option>
+            <option value="mm">Millimeters (mm)</option>
+            <option value="dm">Decimeters (dm)</option>
+            <option value="m">Meters (m)</option>
+        </select>
+    </div>
+
+    <button onclick="convert()">Convert</button>
+
+    <div id="result">
+        <h3>Result: <span id="output">0</span></h3>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
 </body>
+</html>
