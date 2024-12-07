@@ -1,11 +1,13 @@
 
-    const cm = document.getElementById("centimeters").value;
-    const resultDiv = document.getElementById("result");
+    function convertToMM() {
+    let resultDiv = document.getElementById("cmInput");
+    let result = document.querySelector ('#result')
+    let cm = resultDiv.value;
 
     if (cm === "" || cm <= 0) {
-      resultDiv.innerHTML = "<span>Please enter a valid number greater than 0.</span>";
+        result.innerHTML = "Please enter a valid number greater than 0.";
     } else {
-      const mm = cm * 10;
-      resultDiv.innerHTML = `<span>${cm} cm</span> is equal to <span>${mm} mm</span>`;
+      let mm = cm * 10;
+      result.innerHTML = `${cm} cm</span> is equal to <span>${mm} mm`;
     }
-  
+}
