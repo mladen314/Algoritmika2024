@@ -5,6 +5,12 @@
 
 body{
     background-image: linear-gradient(to right,rgb(101, 86, 189),rgb(2, 0, 13));
+    
+}
+.content{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
 }
 .linkovi{
     display: flex;
@@ -15,6 +21,7 @@ a{
     display: block;
     text-decoration: none;
     color: rgb(101, 86, 189);
+    font-size: 20px;
     height: 56px;
     width: 165px;
     border: 1px solid black;
