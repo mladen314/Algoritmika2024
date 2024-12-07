@@ -6,3 +6,5 @@ function convertToMillimeters(centimeters) {
   let millimeters = convertToMillimeters(centimeters);
   
   console.log(`${centimeters} centimeters is equal to ${millimeters} millimeters.`);
+
+  
