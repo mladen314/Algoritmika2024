@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 
-/* Body styling */
+
 body {
-    font-family: 'SF Pro Display', sans-serif; /* iOS-like font */
-    background: linear-gradient(135deg, #00c6ff, #0072ff); /* Futuristic blue gradient */
+    font-family: 'SF Pro Display', sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #0072ff); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,10 +16,10 @@ body {
     padding: 20px;
 }
 
-/* Container for the converter */
+
 .converter-container {
-    background-color: rgba(255, 255, 255, 0.1); /* Transparent white with opacity */
-    backdrop-filter: blur(10px); /* Adds a frosted glass effect */
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);
     border-radius: 20px;
     padding: 40px;
     width: 350px;
@@ -29,12 +29,12 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Container hover effect */
+
 .converter-container:hover {
     transform: translateY(-10px);
 }
 
-/* Title styling */
+
 h1 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -45,7 +45,7 @@ h1 {
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Input fields and dropdown */
+
 .input-group {
     margin-bottom: 30px;
     text-align: left;
@@ -64,22 +64,21 @@ input, select {
     padding: 15px;
     font-size: 16px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.4); /* Dark background */
+    background-color: rgba(0, 0, 0, 0.4); 
     border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 12px;
     margin-top: 10px;
     transition: all 0.3s ease-in-out;
-    backdrop-filter: blur(10px); /* Adds frosted glass effect */
+    backdrop-filter: blur(10px);
 }
 
-/* Focus effect */
 input:focus, select:focus {
     outline: none;
     border-color: #00c6ff;
     box-shadow: 0 0 10px rgba(0, 198, 255, 0.8);
 }
 
-/* Button styling */
+
 button {
     padding: 15px;
     background: linear-gradient(45deg, #00c6ff, #0072ff);
@@ -88,26 +87,26 @@ button {
     border-radius: 12px;
     font-size: 18px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.3s ease;
+    transition:  transform 0.3s ease;
     width: 100%;
     font-weight: 700;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
 }
 
-/* Button hover effect */
+
 button:hover {
     background: linear-gradient(45deg, #0072ff, #00c6ff);
     transform: translateY(-4px);
 }
 
-/* Button active effect */
+
 button:active {
     background: linear-gradient(45deg, #005fa3, #003d77);
     transform: translateY(4px);
 }
 
-/* Result section */
+
 #result {
     margin-top: 30px;
     font-size: 18px;
