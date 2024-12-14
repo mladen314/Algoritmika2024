@@ -126,3 +126,37 @@ h3 {
     color: #00c6ff;
     font-weight: 800;
 }
+
+#info-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#info-box h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #4CAF50;
+}
+
+#info-box p {
+    font-size: 15px;
+    color: #666;
+}
+
+#info-box ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#info-box li {
+    margin-bottom: 8px;
+    color: #555;
+}
