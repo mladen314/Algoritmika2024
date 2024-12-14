@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleInfoBox.css">
     <title>Mladen</title>
 </head>
+
 <body>
-    <div class="change_back">Promjeni pozadinu</div>
+
     <div class="content">
         <p>DOBRO DOŠLI NA SAJT SA PROJEKTNIM ZADACIMA POLAZNIKA ALGORITMIKE</p>
     </div>
@@ -18,8 +21,19 @@
         <a href="VukL/index.html">VUK L</a>
         <a href="VukR/index.html">VUK R</a>
     </div>
-
+    <div class="btn">
+        <button class="open-button">Show Info</button>
+    </div>
+    <div class="info-box-overlay" id="infoBoxOverlay">
+        <div class="info-box">
+            <h2>Important Information</h2>
+            <p>This is some text inside the info box. You can add any content here!</p>
+            <button onclick="closeInfoBox()">Close</button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="scriptInfoBox.js"></script>
 </body>
+
 </html>
