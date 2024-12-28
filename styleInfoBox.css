@@ -52,16 +52,4 @@
     display: flex;
     justify-content: center;
 }
-.open-button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-}
 
-.open-button:hover {
-    background-color: #218838;
-}
