@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 l</head>
 <body>
-
+<div class="container">
 <div class="converter-container">
     <h1>Unit Converter</h1>
     
@@ -43,7 +43,26 @@ l</head>
     </div>
 </div>
 
+</div>
+
+
 <script src="script.js"></script>
 
 </body>
 </html>
+
+<div class="btn">
+    <button class="open-button">Show info</button>
+</div>
+
+
+<div id="info-box">
+    <h3>Unit Conversion Info:</h3>
+    <p>This converter helps you convert between different units of length.</p>
+    <ul>
+        <li>1 cm = 10 mm</li>
+        <li>1 dm = 10 cm</li>
+        <li>1 m = 100 cm</li>
+        <li>1 m = 1000 mm</li>
+    <button onclick="closeInfoBox()">Close</button>
+</div>
